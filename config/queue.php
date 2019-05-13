@@ -50,10 +50,10 @@ return [
 
         'sqs' => [
             'driver' => 'sqs',
-            'key' => env('SQS_KEY', 'your-public-key'),
-            'secret' => env('SQS_SECRET', 'your-secret-key'),
-            'prefix' => env('SQS_PREFIX', 'https://sqs.us-east-1.amazonaws.com/your-account-id'),
-            'queue' => env('SQS_QUEUE', 'your-queue-name'),
+            'key' => env('SQS_KEY', 'AKIAQIGYCMJZIBRGK3FA'),
+            'secret' => env('SQS_SECRET', 'MKtPHL5VGn/nSgF9vHK6OHuY96pTOIY1Kd6nciIU'),
+            'prefix' => env('SQS_PREFIX', 'https://sqs.us-east-1.amazonaws.com/017633010290'),
+            'queue' => env('SQS_QUEUE', 'bulkemail'),
             'region' => env('SQS_REGION', 'us-east-1'),
         ],
 
